@@ -27,7 +27,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".PhotoFrameActivity"/>
+        <activity android:name=".PhotoFrameActivity"
+            android:screenOrientation="landscape"
+            />
     </application>
 
 </manifest>
